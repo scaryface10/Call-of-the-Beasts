@@ -1,6 +1,6 @@
 body {
 
-	background-image: url("http://hdwallpaperia.com/wp-content/uploads/2013/11/Game-Backgrounds-Wallpaper.jpg");
+	background-image: url("http://hunteredcourse.com/wp-content/uploads/2014/03/Hunting-Turkey.jpg");
     background-size: cover;
     background-position: center center;
 	font-family: monospace;
@@ -30,6 +30,8 @@ body {
     background-color: #abc;
     box-shadow: 15px 15px 80px #555;
 }
+
+
   a.button:hover {
     background-color: #383838;
     color: #abc;
@@ -40,7 +42,17 @@ body {
 /*Stuff below governs the Explore screen*/
 
 #exploreBody {
-	background-image: url("img/exploreHome1.jpg");
+	background-image: url("img/background-1.jpg");
 	background-position: bottom center;
+
+}
+
+.button1 {
+    border: 5px solid #383838;
+    position: relative;
+    left: 1330px;
+    font-size: 2.5em;
+    text-decoration: none;
+    background-color: #abc;
 
 }
