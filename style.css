@@ -50,9 +50,24 @@ body {
 .button1 {
     border: 5px solid #383838;
     position: relative;
-    left: 1330px;
+    left: 1125px;
     font-size: 2.5em;
     text-decoration: none;
     background-color: #abc;
+}
+
+/*Stuff below governs the Level Choice screen*/
+
+#choice-level {
+    background-image: url("img/background-1.jpg");
+    background-position: bottom center;
 
 }
+
+.button2 {
+    border: 5px solid #383838;
+    font-size: 2.5em;
+    text-decoration: none;
+    background-color: #abc;
+}
+
