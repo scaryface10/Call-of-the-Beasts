@@ -15,6 +15,29 @@ $("#bill").click(function(){
 	});
 
 
+  animateDiv();
+
+function makeNewPosition(){
+    
+    // Get viewport dimensions (remove the dimension of the div)
+    var h = $(window).height() ;
+    var w = $(window).width() ;
+    
+    var nh = Math.floor(Math.random() * h);
+    var nw = Math.floor(Math.random() * w);
+    
+    return [nh,nw];    
+    
+}
+
+function animateDiv(){
+    var newq = makeNewPosition();
+  //James change .a to .othercar
+    $("#bill").animate({ top: newq[0], left: newq[1] }, function(){
+      animateDiv();        
+    });
+    
+};
 
     animateDiv();
 
@@ -34,7 +57,7 @@ function makeNewPosition(){
 function animateDiv(){
     var newq = makeNewPosition();
   //James change .a to .othercar
-    $('.bill').animate({ top: newq[0], left: newq[1] }, function(){
+    $("#bob").animate({ top: newq[0], left: newq[1] }, function(){
       animateDiv();        
     });
     
