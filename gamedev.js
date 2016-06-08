@@ -14,6 +14,7 @@ $("#bill").click(function(){
 
 	});
 
+    
     animateDiv();
 
 function makeNewPosition(){
@@ -61,6 +62,8 @@ function animateDiv1(){
     });
     
 };
+
+	
 
 
 
